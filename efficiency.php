@@ -4,7 +4,7 @@
 Plugin Name: Efficiency
 Plugin URI: https://grind.studio
 Description: Plugin helps make decision three json
-Version: 1.1.1
+Version: 1.1.2
 Author: Grind
 Author URI: https://grind.studio
 Text Domain: Efficiency
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require __DIR__ . '/vendor/autoload.php';
 
-if ( class_exists( 'Plugin_Upgrader' ) || class_exists( 'WP_Upgrader' ) ) {
+if ( ! class_exists( 'Plugin_Upgrader' ) ) {
 	// Initialize the WordPress filesystem
 	require_once ABSPATH . 'wp-admin/includes/file.php';
 	WP_Filesystem();
