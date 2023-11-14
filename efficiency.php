@@ -4,7 +4,7 @@
 Plugin Name: Efficiency
 Plugin URI: https://grind.studio
 Description: Plugin helps make decision three json
-Version: 1.1.0
+Version: 1.1.1
 Author: Grind
 Author URI: https://grind.studio
 Text Domain: Efficiency
@@ -17,6 +17,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 require __DIR__ . '/vendor/autoload.php';
+
+if ( class_exists( 'Plugin_Upgrader' ) || class_exists( 'WP_Upgrader' ) ) {
+	// Initialize the WordPress filesystem
+	require_once ABSPATH . 'wp-admin/includes/file.php';
+	WP_Filesystem();
+	
+	// Include the necessary upgrade classes
+	require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+	require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader-skin.php';
+}
 
 use Includes\Activator;
 use Includes\Deactivator;
@@ -45,7 +55,10 @@ new buildTree;
 
 
 function check_for_plugin_update() {
-	if ( isset( $_GET['page'] ) && $_GET['page'] === 'plugins.php' ) {
+	
+	if ( class_exists( 'Plugin_Upgrader' ) ) {
+		
+		
 		$plugin_data     = get_plugin_data( __FILE__ );
 		$current_version = $plugin_data['Version'];
 		
@@ -68,12 +81,12 @@ function check_for_plugin_update() {
 				// Perform the update
 				$upgrade_result = $upgrade->run( [
 					'package'           => $package,
-					'destination'       => WP_PLUGIN_DIR,
+					'destination'       => WP_PLUGIN_DIR . '/efficiency',
 					'clear_destination' => true,
 					'clear_working'     => true,
 					'is_multi'          => false,
 					'hook_extra'        => [
-						'plugin' => $plugin_slug,
+						'plugin' => 'efficiency/efficiency.php',
 						'type'   => 'plugin',
 						'action' => 'update',
 					],
@@ -89,6 +102,7 @@ function check_for_plugin_update() {
 			
 		}
 	}
+	
 }
 
-add_action( 'init', 'check_for_plugin_update' );
+add_action( 'admin_init', 'check_for_plugin_update' );
