@@ -299,8 +299,9 @@
                             const nodeToRemove = obj.part;
 
                             const isRoot = nodeToRemove.findLinksInto().count === 0; // check if this node is root (no incoming links)
-
-                            if (isRoot) {
+                            const hasChildren = nodeToRemove.findTreeChildrenNodes().count > 0;
+                            
+                            if (isRoot || hasChildren) {
                                 alert('Cannot delete root node!');
                                 return;
                             }

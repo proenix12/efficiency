@@ -3,7 +3,7 @@
   "title": "DO YOU OWN YOUR HOME?",
   "type": "quest",
   "content": "<p>dsfdfgfd</p>",
-  "x": 956.6287028091166,
+  "x": 705.5895017036306,
   "y": 0,
   "children": [
     {
@@ -11,54 +11,54 @@
       "title": "YES",
       "type": "choice",
       "content": "<p><br></p>",
-      "x": 800.2989196849616,
-      "y": 136.58798624915394,
+      "x": 549.2739130680031,
+      "y": 136.59475666922845,
       "children": [
         {
           "key": "quest-2",
           "title": "IS YOUR HOME SINGLE, SEMI-DETACHED OR OTHER?",
           "type": "quest",
           "content": "<p><br></p>",
-          "x": 649.3262634349622,
-          "y": 273.1759724983079,
+          "x": 398.3239161197601,
+          "y": 273.1895133384569,
           "children": [
             {
               "key": "choice-3",
               "title": "SINGLE OR SEMI-DETACHED",
               "type": "choice",
               "content": "<p><br></p>",
-              "x": 495.22499593580824,
-              "y": 409.7639587474618,
+              "x": 244.24999237060604,
+              "y": 409.784270007686,
               "children": [
                 {
                   "key": "quest-4",
                   "title": "DO YOU CURRENTLY HAVE A HEAT PUMP AND ARE CONSIDERING INSTALLING ANOTHER?",
                   "type": "quest",
                   "content": "",
-                  "x": 250.92030843580827,
-                  "y": 546.3519449966163,
+                  "x": -1.0658141036401503e-13,
+                  "y": 546.3790266769142,
                   "children": [
                     {
                       "key": "choice-5",
                       "title": "NO",
                       "type": "choice",
                       "content": "<p><br></p>",
-                      "x": 30.237599688346506,
-                      "y": 682.9399312457699,
+                      "x": 488.9651133207359,
+                      "y": 674.9737833461422,
                       "children": [
                         {
                           "key": "math-6",
                           "title": "HOW MANY PEOPLE LIVE IN YOUR HOME?",
                           "type": "math",
                           "content": "<p><br></p>",
-                          "x": 0,
-                          "y": 819.5279174949237,
+                          "x": 626.7265370698897,
+                          "y": 802.568540015372,
                           "children": [],
                           "label": "HOW MANY PEOPLE LIVE IN YOUR HOME?",
                           "category": "math",
                           "loc": {
                             "x": 0,
-                            "y": 819.568540015371,
+                            "y": 819.5279174949237,
                             "_isFrozen": false
                           },
                           "text": "HOW MANY PEOPLE LIVE IN YOUR HOME?",
@@ -68,8 +68,8 @@
                       "label": "NO",
                       "category": "choice",
                       "loc": {
-                        "x": 30.23857625084571,
-                        "y": 682.9737833461421,
+                        "x": 30.237599688346506,
+                        "y": 682.9399312457699,
                         "_isFrozen": false
                       },
                       "text": "NO",
@@ -77,112 +77,38 @@
                     },
                     {
                       "key": "choice-7",
-                      "title": "LOW-INCOME QUALIFIED HEAT PUMP",
-                      "type": "choice",
-                      "content": "",
-                      "x": 257.7604471866542,
-                      "y": 682.9399312457708,
-                      "children": [
-                        {
-                          "key": "math-8",
-                          "title": "HOW MANY PEOPLE LIVE IN YOUR HOME?",
-                          "type": "math",
-                          "content": "",
-                          "x": 314.76112874830824,
-                          "y": 819.527917494924,
-                          "children": [],
-                          "label": "HOW MANY PEOPLE LIVE IN YOUR HOME?",
-                          "category": "math",
-                          "loc": {
-                            "x": 314.74785360182386,
-                            "y": 819.5685400153708,
-                            "_isFrozen": false
-                          },
-                          "text": "HOW MANY PEOPLE LIVE IN YOUR HOME?",
-                          "__gohashid": 708
-                        }
-                      ],
-                      "label": "LOW-INCOME QUALIFIED HEAT PUMP",
-                      "category": "choice",
-                      "loc": {
-                        "x": 257.76142374915383,
-                        "y": 682.9737833461433,
-                        "_isFrozen": false
-                      },
-                      "text": "LOW-INCOME QUALIFIED HEAT PUMP",
-                      "__gohashid": 688
-                    },
-                    {
-                      "key": "choice-9",
-                      "text": "I HAVE 1 HEAT PUMP",
+                      "text": "YES",
                       "content": "",
                       "category": "choice",
                       "__gohashid": 11267,
-                      "title": "I HAVE 1 HEAT PUMP",
+                      "title": "YES",
                       "type": "choice",
-                      "x": 659.7598571849624,
-                      "y": 682.9399312457708,
+                      "x": 196.1015370698894,
+                      "y": 666.9737833461431,
                       "children": [
                         {
-                          "key": "result-10",
+                          "key": "result-8",
                           "text": "Heating System Rebates",
                           "content": "<h4 style=\"text-align: left;\">Heating System Rebates</h4>\n<p align=\"left\">Efficient home heating systems can save you money. If you’ve already upgraded your heating system in the past 180 days, you can still apply for rebates to complement your existing monthly savings.</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/heating-system-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">APPLY TODAY</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
                           "category": "result",
                           "__gohashid": 23272,
                           "title": "Heating System Rebates",
                           "type": "result",
-                          "x": 647.8848571849622,
-                          "y": 819.527917494924,
+                          "x": 177.7265370698894,
+                          "y": 806.568540015372,
                           "children": [],
                           "label": "Heating System Rebates",
                           "loc": {
-                            "x": 647.842613227443,
-                            "y": 819.5685400153707,
+                            "x": 647.8848571849622,
+                            "y": 819.527917494924,
                             "_isFrozen": false
                           }
                         }
                       ],
                       "label": "I HAVE 1 HEAT PUMP",
                       "loc": {
-                        "x": 659.7342834544932,
-                        "y": 682.9737833461422,
-                        "_isFrozen": false
-                      }
-                    },
-                    {
-                      "key": "choice-11",
-                      "text": "I HAVE 2 OR MORE HEAT PUMPS",
-                      "content": "",
-                      "category": "choice",
-                      "__gohashid": 14982,
-                      "title": "I HAVE 2 OR MORE HEAT PUMPS",
-                      "type": "choice",
-                      "x": 930.2670796832698,
-                      "y": 682.9399312457699,
-                      "children": [
-                        {
-                          "key": "result-12",
-                          "text": "Home Energy Assessment",
-                          "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
-                          "category": "result",
-                          "__gohashid": 24116,
-                          "title": "Home Energy Assessment",
-                          "type": "result",
-                          "x": 956.6108296832709,
-                          "y": 819.527917494924,
-                          "children": [],
-                          "label": "Home Energy Assessment",
-                          "loc": {
-                            "x": 952.1071217975274,
-                            "y": 819.5685400153707,
-                            "_isFrozen": false
-                          }
-                        }
-                      ],
-                      "label": "HAVE 2 OR MORE HEAT PUMPS",
-                      "loc": {
-                        "x": 930.2237904986995,
-                        "y": 682.9737833461422,
+                        "x": 659.7598571849624,
+                        "y": 682.9399312457708,
                         "_isFrozen": false
                       }
                     }
@@ -190,8 +116,8 @@
                   "label": "DO YOU CURRENTLY HAVE A HEAT PUMP AND ARE CONSIDERING INSTALLING ANOTHER?",
                   "category": "quest",
                   "loc": {
-                    "x": 246.51452382887436,
-                    "y": 546.3790266769147,
+                    "x": 250.92030843580827,
+                    "y": 546.3519449966163,
                     "_isFrozen": false
                   },
                   "text": "DO YOU CURRENTLY HAVE A HEAT PUMP AND ARE CONSIDERING INSTALLING ANOTHER?",
@@ -201,34 +127,34 @@
               "label": "SINGLE OR SEMI-DETACHED",
               "category": "choice",
               "loc": {
-                "x": 490.7645161994789,
-                "y": 409.78427000768556,
+                "x": 495.22499593580824,
+                "y": 409.7639587474618,
                 "_isFrozen": false
               },
               "text": "SINGLE OR SEMI-DETACHED",
               "__gohashid": 588
             },
             {
-              "key": "choice-13",
+              "key": "choice-11",
               "title": "OTHER",
               "type": "choice",
               "content": "<p><br></p>",
-              "x": 1105.3728434341153,
-              "y": 409.7639587474622,
+              "x": 854.2978337653998,
+              "y": 409.784270007686,
               "children": [
                 {
-                  "key": "result-14",
+                  "key": "result-12",
                   "title": "INSTANT SAVINGS + EPI",
                   "type": "result",
                   "content": "<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n\n",
-                  "x": 1071.6540934341149,
-                  "y": 546.3519449966158,
+                  "x": 820.5894978889339,
+                  "y": 546.3790266769138,
                   "children": [],
                   "label": "INSTANT SAVINGS + EPI",
                   "category": "result",
                   "loc": {
-                    "x": 1067.1040217178036,
-                    "y": 546.3790266769151,
+                    "x": 1071.6540934341149,
+                    "y": 546.3519449966158,
                     "_isFrozen": false
                   },
                   "text": "INSTANT SAVINGS + EPI",
@@ -238,8 +164,8 @@
               "label": "OTHER",
               "category": "choice",
               "loc": {
-                "x": 1100.8123575942693,
-                "y": 409.78427000768534,
+                "x": 1105.3728434341153,
+                "y": 409.7639587474622,
                 "_isFrozen": false
               },
               "text": "OTHER",
@@ -249,8 +175,8 @@
           "label": "IS YOUR HOME SINGLE, SEMI-DETACHED OR OTHER?",
           "category": "quest",
           "loc": {
-            "x": 644.8384399486338,
-            "y": 273.1895133384576,
+            "x": 649.3262634349622,
+            "y": 273.1759724983079,
             "_isFrozen": false
           },
           "text": "IS YOUR HOME SINGLE, SEMI-DETACHED OR OTHER?",
@@ -260,34 +186,34 @@
       "label": "YES",
       "category": "choice",
       "loc": {
-        "x": 795.7884368968755,
-        "y": 136.5947566692288,
+        "x": 800.2989196849616,
+        "y": 136.58798624915394,
         "_isFrozen": false
       },
       "text": "YES",
       "__gohashid": 546
     },
     {
-      "key": "choice-15",
+      "key": "choice-13",
       "title": "NO",
       "type": "choice",
       "content": "<p><br></p>",
-      "x": 1212.5131734332692,
-      "y": 136.58798624915394,
+      "x": 961.455093391016,
+      "y": 136.59475666922845,
       "children": [
         {
-          "key": "result-16",
+          "key": "result-14",
           "title": "INSTANT SAVINGS + EPI",
           "type": "result",
           "content": "<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
-          "x": 1178.7944234332697,
-          "y": 273.1759724983079,
+          "x": 927.7467575145527,
+          "y": 273.1895133384569,
           "children": [],
           "label": "INSTANT SAVINGS + EPI",
           "category": "result",
           "loc": {
-            "x": 1174.2612813434278,
-            "y": 273.1895133384576,
+            "x": 1178.7944234332697,
+            "y": 273.1759724983079,
             "_isFrozen": false
           },
           "text": "INSTANT SAVINGS + EPI",
@@ -297,8 +223,8 @@
       "label": "NO",
       "category": "choice",
       "loc": {
-        "x": 1207.9696172198944,
-        "y": 136.5947566692288,
+        "x": 1212.5131734332692,
+        "y": 136.58798624915394,
         "_isFrozen": false
       },
       "text": "NO",
@@ -308,7 +234,7 @@
   "label": "DO YOU OWN YOUR HOME?",
   "category": "quest",
   "loc": {
-    "x": 952.1040255325057,
+    "x": 956.6287028091166,
     "y": 0,
     "_isFrozen": false
   },
