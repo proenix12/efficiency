@@ -4,7 +4,7 @@
 Plugin Name: Efficiency
 Plugin URI: https://grind.studio
 Description: Plugin helps make decision three json
-Version: 1.0
+Version: 1.1.0
 Author: Grind
 Author URI: https://grind.studio
 Text Domain: Efficiency
