@@ -1,0 +1,17 @@
+{
+    "name": "georginyagolov/efficiency",
+    "description": "efficiency desition three",
+    "autoload": {
+        "psr-4": { "": "./" },
+        "files": ["Helpers/functions.php"]
+    },
+    "authors": [
+        {
+            "name": "george",
+            "email": "georgi.nyagolov@grind.bg"
+        }
+    ],
+    "require": {
+        "nicmart/tree": "^0.7.1"
+    }
+}

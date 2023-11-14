@@ -1,0 +1,737 @@
+{
+  "key": "quest-0",
+  "title": "HOW MANY PEOPLE LIVE IN YOUR HOUSE?",
+  "type": "quest",
+  "content": "<p>dsfdfgfd</p>",
+  "answer_type": "filled",
+  "x": 4290.545890808113,
+  "y": 0,
+  "children": [
+    {
+      "key": "quest-1",
+      "text": "PLEASE SELECT YOUR INCOME",
+      "content": "<p>SDFDS</p>",
+      "category": "quest",
+      "__gohashid": 144361,
+      "title": "PLEASE SELECT YOUR INCOME",
+      "type": "quest",
+      "x": 4336.329231262203,
+      "y": 136.59475666922867,
+      "children": [
+        {
+          "key": "choice-2",
+          "text": "LOW INCOME OPTIONS",
+          "content": "<p><br></p>",
+          "category": "choice",
+          "income_category": "choice_income",
+          "__gohashid": 145852,
+          "title": "LOW INCOME OPTIONS",
+          "type": "choice",
+          "x": 1224.6625137329088,
+          "y": 273.1895133384573,
+          "children": [
+            {
+              "key": "quest-3",
+              "text": "HOW DO YOU CURRENTLY HEAT YOUR HOME?",
+              "content": "",
+              "category": "quest",
+              "__gohashid": 149737,
+              "title": "HOW DO YOU CURRENTLY HEAT YOUR HOME?",
+              "type": "quest",
+              "x": 1131.7958374023458,
+              "y": 409.7842700076851,
+              "children": [
+                {
+                  "key": "choice-4",
+                  "text": "OIL (MORE THAN 1000L/YEAR)",
+                  "content": "",
+                  "category": "choice",
+                  "__gohashid": 156012,
+                  "title": "OIL (MORE THAN 1000L/YEAR)",
+                  "type": "choice",
+                  "x": 159.46665954589838,
+                  "y": 546.3790266769134,
+                  "children": [
+                    {
+                      "key": "result-5",
+                      "text": "HOMEWARMING + OPHA, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">HomeWarming</h4>\n<p align=\"left\">Keep your home comfortable and energy efficient with a no-charge energy assessment and a wide variety of free home improvement upgrades for low-income-qualified homeowners.</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.homewarming.ca/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"https://www.efficiencyns.ca/residential/services-rebates/fridge-freezer-recycling/\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "category": "result",
+                      "__gohashid": 167763,
+                      "title": "HOMEWARMING + OPHA, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": -5.684341886080802e-14,
+                      "y": 682.9737833461415,
+                      "children": [],
+                      "label": "HOMEWARMING + OPHA, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 0,
+                        "y": 682.9737833461425,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OIL (MORE THAN 1000L/YEAR)",
+                  "loc": {
+                    "x": 159.46665954589855,
+                    "y": 546.379026676913,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-6",
+                  "text": "OIL (LESS THAN 1000L/YEAR)",
+                  "content": "",
+                  "category": "choice",
+                  "__gohashid": 156791,
+                  "title": "OIL (LESS THAN 1000L/YEAR)",
+                  "type": "choice",
+                  "x": 762.0833282470705,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "result-7",
+                      "text": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT1",
+                      "content": "<h4 style=\"text-align: left;\">HomeWarming</h4>\n<p align=\"left\">Keep your home comfortable and energy efficient with a no-charge energy assessment and a wide variety of free home improvement upgrades for low-income-qualified homeowners.</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.homewarming.ca/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"https://www.efficiencyns.ca/residential/services-rebates/fridge-freezer-recycling/\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "category": "result",
+                      "__gohashid": 170666,
+                      "title": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT1",
+                      "type": "result",
+                      "x": 627.2833251953111,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT1",
+                      "loc": {
+                        "x": 627.283325195313,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OIL (LESS THAN 1000L/YEAR)",
+                  "loc": {
+                    "x": 762.0833282470705,
+                    "y": 546.3790266769139,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-8",
+                  "text": "ELECTRIC",
+                  "content": "<p><br></p>",
+                  "category": "choice",
+                  "__gohashid": 159653,
+                  "title": "ELECTRIC",
+                  "type": "choice",
+                  "x": 1384.9083404541025,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "result-9",
+                      "text": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">HomeWarming</h4>\r\n\n\r\n<p align=\"left\">Keep your home comfortable and energy efficient with a no-charge energy assessment and a wide variety of free home improvement upgrades for low-income-qualified homeowners.</p>\r\n\n\r\n<p align=\"left\"><br />\n</p>\r\n\n\r\n<div align=\"left\"><a href=\"https://www.homewarming.ca/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\r\n\n\r\n<div align=\"left\">\n<p><br />\n</p>\n</div>\r\n\n\r\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\r\n\n\r\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\r\n\n\r\n<p align=\"left\"><br />\n</p>\r\n\n\r\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\r\n\n\r\n<div align=\"left\">\n<p><br />\n</p>\n</div>\r\n\n\r\n<h4 style=\"text-align: left;\">Instant Savings</h4>\r\n\n\r\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\r\n\n\r\n<p align=\"left\"><br />\n</p>\r\n\n\r\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\r\n\n\r\n<div align=\"left\">\n<p><br />\n</p>\n</div>\r\n\n\r\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"https://www.efficiencyns.ca/residential/services-rebates/fridge-freezer-recycling/\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>",
+                      "category": "result",
+                      "__gohashid": 177465,
+                      "title": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 1198.9999999999995,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 1198.9999999999977,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "ELECTRIC",
+                  "loc": {
+                    "x": 1384.9083404540988,
+                    "y": 546.3790266769139,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-10",
+                  "text": "OTHER (WOOD/PELLET/PROPANE)",
+                  "content": "<p><br></p>",
+                  "category": "choice",
+                  "__gohashid": 163606,
+                  "title": "OTHER (WOOD/PELLET/PROPANE)",
+                  "type": "choice",
+                  "x": 2201.3083648681595,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "result-11",
+                      "text": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">HomeWarming</h4>\n<p align=\"left\">Keep your home comfortable and energy efficient with a no-charge energy assessment and a wide variety of free home improvement upgrades for low-income-qualified homeowners.</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.homewarming.ca/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"https://www.efficiencyns.ca/residential/services-rebates/fridge-freezer-recycling/\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "number_of_people": 2,
+                      "category": "result",
+                      "__gohashid": 19714,
+                      "title": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 1761.8166809082031,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "HOMEWARMING, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 1761.8166809082022,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    },
+                    {
+                      "key": "result-12",
+                      "text": "HOME ENRGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "category": "result",
+                      "number_of_people": 3,
+                      "__gohashid": 23339,
+                      "title": "HOME ENRGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 2324.6333618164076,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "HOME ENRGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 2324.6333618164003,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OTHER (WOOD/PELLET/PROPANE)",
+                  "loc": {
+                    "x": 2201.3083648681613,
+                    "y": 546.3790266769139,
+                    "_isFrozen": false
+                  }
+                }
+              ],
+              "label": "HOW DO YOU CURRENTLY HEAT YOU HOME?",
+              "loc": {
+                "x": 1137.5708465576167,
+                "y": 409.784270007685,
+                "_isFrozen": false
+              }
+            }
+          ],
+          "label": "LOW INCOME OPTIONS",
+          "loc": {
+            "x": 1224.6625137329115,
+            "y": 273.18951333845695,
+            "_isFrozen": false
+          }
+        },
+        {
+          "key": "choice-13",
+          "text": "MIDDLE ICOME OPTIONS",
+          "content": "<p><br></p>",
+          "category": "choice",
+          "income_category": "choice_income",
+          "__gohashid": 146589,
+          "title": "MIDDLE ICOME OPTIONS",
+          "type": "choice",
+          "x": 4081.3625793457036,
+          "y": 273.1895133384573,
+          "children": [
+            {
+              "key": "quest-14",
+              "text": "HOW DO YOU CURRENTLY HEAT YOUR HOME?",
+              "content": "<p>HOW DO YOU CURRENTLY HEAT YOU HOME?</p>",
+              "category": "quest",
+              "__gohashid": 151588,
+              "title": "HOW DO YOU CURRENTLY HEAT YOUR HOME?",
+              "type": "quest",
+              "x": 3994.7209091186505,
+              "y": 409.7842700076858,
+              "children": [
+                {
+                  "key": "choice-15",
+                  "text": "OIL (MORE THAN 1000L/YEAR)",
+                  "content": "<p>OIL (MORE THEN 1000L/YEAR)</p>",
+                  "category": "choice",
+                  "__gohashid": 12072,
+                  "title": "OIL (MORE THAN 1000L/YEAR)",
+                  "type": "choice",
+                  "x": 3160.0917205810583,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "result-16",
+                      "text": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "category": "result",
+                      "__gohashid": 14655,
+                      "title": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 2982.5667114257812,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 2982.5667114257767,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OIL (MORE THAN 1000L/YEAR)",
+                  "loc": {
+                    "x": 3160.0917205810547,
+                    "y": 546.3790266769139,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-17",
+                  "text": "OIL (LESS THAN 1000L/YEAR)",
+                  "content": "",
+                  "category": "choice",
+                  "__gohashid": 14734,
+                  "title": "OIL (LESS THAN 1000L/YEAR)",
+                  "type": "choice",
+                  "x": 3794.3750762939453,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "result-18",
+                      "text": "MODERATE HEA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\r\n\n\r\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\r\n\n\r\n<p align=\"left\"><br />\n</p>\r\n\n\r\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\r\n\n\r\n<div align=\"left\">\n<p><br />\n</p>\n</div>\r\n\n\r\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\r\n\n\r\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\r\n\n\r\n<p align=\"left\"><br />\n</p>\r\n\n\r\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\r\n\n\r\n<div align=\"left\">\n<p><br />\n</p>\n</div>\r\n\n\r\n<h4 style=\"text-align: left;\">Instant Savings</h4>\r\n\n\r\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\r\n\n\r\n<p align=\"left\"><br />\n</p>\r\n\n\r\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\r\n\n\r\n<div align=\"left\">\n<p><br />\n</p>\n</div>\r\n\n\r\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>",
+                      "category": "result",
+                      "__gohashid": 17819,
+                      "title": "MODERATE HEA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 3645.9667358398424,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "MODERATE HEA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 3645.966735839844,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OIL (LESS THAN 1000L/YEAR)",
+                  "loc": {
+                    "x": 3794.3750762939426,
+                    "y": 546.3790266769139,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-19",
+                  "text": "OTHER ( WOOD/PALLET/PROPANE)",
+                  "content": "<p><br></p>",
+                  "category": "choice",
+                  "__gohashid": 17639,
+                  "title": "OTHER ( WOOD/PALLET/PROPANE)",
+                  "type": "choice",
+                  "x": 4371.408432006829,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "result-20",
+                      "text": "MODERATE HEA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "category": "result",
+                      "__gohashid": 22296,
+                      "title": "MODERATE HEA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 4244.900085449217,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "MODERATE HEA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 4244.900085449219,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OTHER ( WOOD/PALLET/PROPANE)",
+                  "loc": {
+                    "x": 4371.40843200684,
+                    "y": 546.3790266769139,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-21",
+                  "text": "ELECTRIC",
+                  "content": "",
+                  "category": "choice",
+                  "__gohashid": 20959,
+                  "title": "ELECTRIC",
+                  "type": "choice",
+                  "x": 5077.300109863282,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "result-22",
+                      "text": "HOME ENRGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "category": "result",
+                      "__gohashid": 26744,
+                      "title": "HOME ENRGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 4843.8334350585965,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "HOME ENRGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 4843.833435058587,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "ELECTRIC",
+                  "loc": {
+                    "x": 5077.300109863284,
+                    "y": 546.3790266769139,
+                    "_isFrozen": false
+                  }
+                }
+              ],
+              "label": "HOW DO YOU CURRENTLY HEAT YOU HOME?",
+              "loc": {
+                "x": 4000.495918273924,
+                "y": 409.7842700076854,
+                "_isFrozen": false
+              }
+            }
+          ],
+          "label": "MIDDLE ICOME OPTIONS",
+          "loc": {
+            "x": 4081.3625793457018,
+            "y": 273.18951333845695,
+            "_isFrozen": false
+          }
+        },
+        {
+          "key": "choice-23",
+          "text": "HIGH INCOME OPTIONS",
+          "content": "<p><br></p>",
+          "category": "choice",
+          "income_category": "choice_income",
+          "__gohashid": 147917,
+          "title": "HIGH INCOME OPTIONS",
+          "type": "choice",
+          "x": 7513.729286193853,
+          "y": 273.18951333845735,
+          "children": [
+            {
+              "key": "quest-24",
+              "text": "HOW DO YOU CURRENTLY HEAT YOUR HOME?",
+              "content": "<p>HOW DO YOU CURRENTLY HEAT YOU HOME?</p>",
+              "category": "quest",
+              "__gohashid": 153767,
+              "title": "HOW DO YOU CURRENTLY HEAT YOUR HOME?",
+              "type": "quest",
+              "x": 7422.204277038583,
+              "y": 409.7842700076858,
+              "children": [
+                {
+                  "key": "choice-25",
+                  "text": "OIL (MORE THAN 1000L/YEAR)",
+                  "content": "<p>OIL (MORE THEN 1000L/YEAR)</p>",
+                  "category": "choice",
+                  "__gohashid": 31129,
+                  "title": "OIL (MORE THAN 1000L/YEAR)",
+                  "type": "choice",
+                  "x": 5794.325119018558,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "quest-26",
+                      "text": "WHAT IS YOUR TOTAL PAYABLE? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "content": "",
+                      "category": "quest",
+                      "__gohashid": 45000,
+                      "title": "WHAT IS YOUR TOTAL PAYABLE? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "type": "quest",
+                      "x": 5501.766784667969,
+                      "y": 682.9737833461422,
+                      "children": [
+                        {
+                          "key": "result-27",
+                          "text": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                          "category": "result",
+                          "income": "lower",
+                          "__gohashid": 56635,
+                          "title": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "type": "result",
+                          "x": 5282.50012207031,
+                          "y": 819.5685400153712,
+                          "children": [],
+                          "label": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "loc": {
+                            "x": 5256.616790771492,
+                            "y": 819.5685400153707,
+                            "_isFrozen": false
+                          }
+                        },
+                        {
+                          "key": "result-28",
+                          "text": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                          "category": "result",
+                          "income": "higher",
+                          "__gohashid": 57840,
+                          "title": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "type": "result",
+                          "x": 5945.900146484381,
+                          "y": 819.5685400153712,
+                          "children": [],
+                          "label": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "loc": {
+                            "x": 5920.016815185558,
+                            "y": 819.5685400153707,
+                            "_isFrozen": false
+                          }
+                        }
+                      ],
+                      "label": "What is your total payable? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "loc": {
+                        "x": 5501.766784667969,
+                        "y": 682.9737833461422,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OIL (MORE THAN 1000L/YEAR)",
+                  "loc": {
+                    "x": 5768.44178771973,
+                    "y": 546.3790266769138,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-29",
+                  "text": "OIL (LESS THAN 1000L/YEAR)",
+                  "content": "<p>OIL (LESS THEN 1000L/YEAR)</p>",
+                  "category": "choice",
+                  "__gohashid": 33543,
+                  "title": "OIL (LESS THAN 1000L/YEAR)",
+                  "type": "choice",
+                  "x": 7129.441787719729,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "quest-30",
+                      "text": "WHAT IS YOUR TOTAL PAYABLE? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "content": "<p>WHAT IS YOUR TOTAL PAYABLE?</p>",
+                      "category": "quest",
+                      "__gohashid": 48083,
+                      "title": "WHAT IS YOUR TOTAL PAYABLE? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "type": "quest",
+                      "x": 6833.766784667968,
+                      "y": 682.9737833461418,
+                      "children": [
+                        {
+                          "key": "result-31",
+                          "text": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                          "category": "result",
+                          "income": "lower",
+                          "__gohashid": 59263,
+                          "title": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "type": "result",
+                          "x": 6614.500122070308,
+                          "y": 819.5685400153712,
+                          "children": [],
+                          "label": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "loc": {
+                            "x": 6588.616790771488,
+                            "y": 819.5685400153707,
+                            "_isFrozen": false
+                          }
+                        },
+                        {
+                          "key": "result-32",
+                          "text": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                          "category": "result",
+                          "income": "higher",
+                          "__gohashid": 64362,
+                          "title": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "type": "result",
+                          "x": 7277.900146484368,
+                          "y": 819.5685400153712,
+                          "children": [],
+                          "label": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "loc": {
+                            "x": 7252.016815185543,
+                            "y": 819.5685400153707,
+                            "_isFrozen": false
+                          }
+                        }
+                      ],
+                      "label": "What is your total payable? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "loc": {
+                        "x": 6833.766784667971,
+                        "y": 682.973783346144,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OIL (LESS THAN 1000L/YEAR)",
+                  "loc": {
+                    "x": 7103.558456420898,
+                    "y": 546.3790266769138,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-33",
+                  "text": "OTHER (WOOD/PELLET/PROPANE)",
+                  "content": "<p>OTHER (WOOD/PELLET/PROPANE)</p>",
+                  "category": "choice",
+                  "__gohashid": 36637,
+                  "title": "OTHER (WOOD/PELLET/PROPANE)",
+                  "type": "choice",
+                  "x": 8441.61679077147,
+                  "y": 546.3790266769146,
+                  "children": [
+                    {
+                      "key": "quest-34",
+                      "text": "WHAT IS YOUR TOTAL PAYABLE? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "content": "<p>WHAT IS YOUR TOTAL PAYABLE?</p>",
+                      "category": "quest",
+                      "__gohashid": 52382,
+                      "title": "WHAT IS YOUR TOTAL PAYABLE? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "type": "quest",
+                      "x": 8165.76678466797,
+                      "y": 682.9737833461418,
+                      "children": [
+                        {
+                          "key": "result-35",
+                          "text": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                          "category": "result",
+                          "income": "lower",
+                          "__gohashid": 69365,
+                          "title": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "type": "result",
+                          "x": 7946.5001220703125,
+                          "y": 819.5685400153712,
+                          "children": [],
+                          "label": "MODERATE HEA + OPHA, EPI, INSTANT SAVINGS AND FRIDGE RETIREMENT",
+                          "loc": {
+                            "x": 7920.616790771506,
+                            "y": 819.5685400153707,
+                            "_isFrozen": false
+                          }
+                        },
+                        {
+                          "key": "result-36",
+                          "text": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                          "category": "result",
+                          "income": "higher",
+                          "__gohashid": 74236,
+                          "title": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "type": "result",
+                          "x": 8609.900146484368,
+                          "y": 819.5685400153712,
+                          "children": [],
+                          "label": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                          "loc": {
+                            "x": 8584.016815185561,
+                            "y": 819.5685400153707,
+                            "_isFrozen": false
+                          }
+                        }
+                      ],
+                      "label": "What is your total payable? (THIS CAN BE FOUND ON LINE 435 OF YOUR NOTICE OF ASSESSMENT)",
+                      "loc": {
+                        "x": 8165.766784667969,
+                        "y": 682.9737833461422,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "OTHER (WOOD/PELLET/PROPANE)",
+                  "loc": {
+                    "x": 8415.733459472656,
+                    "y": 546.3790266769138,
+                    "_isFrozen": false
+                  }
+                },
+                {
+                  "key": "choice-37",
+                  "text": "ELECTRIC",
+                  "content": "<p>ELECTRONIC</p>",
+                  "category": "choice",
+                  "__gohashid": 40222,
+                  "title": "ELECTRIC",
+                  "type": "choice",
+                  "x": 9298.033447265643,
+                  "y": 546.3790266769147,
+                  "children": [
+                    {
+                      "key": "result-38",
+                      "text": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "content": "<h4 style=\"text-align: left;\">Home Energy Assessment</h4>\n<p align=\"left\">A Home Energy Assessment will tell you see where your home is losing heat, what you can do to improve it, and what home energy rebates and interest-free financing you may be eligible for. Book yours today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/home-energy-assessment/\" class=\"btn-question\" style=\"text-decoration:none\">LEARN\nMORE</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Free Energy Efficient Product Installation</h4>\n<p align=\"left\">Let one of our qualified Efficiency Partners install energy efficient products in your home at no cost to you. Whether you rent or own, we can help you save. Not only is installation free but so are the products we install. Book now and start saving today!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/services-rebates/free-energy-efficient-products/\" class=\"btn-question\" style=\"text-decoration:none\">BOOK AN\nINSTALLATION</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<h4 style=\"text-align: left;\">Instant Savings</h4>\n<p align=\"left\">Visit participating retailers across the province for instant in-store rebates on dozens of energy efficient products for your home. Product variety updates year-round!</p>\n<p align=\"left\"><br />\n</p>\n<div align=\"left\"><a href=\"https://www.efficiencyns.ca/residential/products-rebates/instant-in-store-product-rebates/\" class=\"btn-question\" style=\"text-decoration:none\">FIND\nREBATES NEAR YOU</a></div>\n<div align=\"left\">\n<p><br />\n</p>\n</div>\n<div align=\"left\"><br />\n<div class=\"question-content-result result-appliance-retirement\">\n<p class=\"character-style-1 question-header\">\n<svg width=\"25\" height=\"25\" viewBox=\"0 0 25 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<rect width=\"25\" height=\"25\" fill=\"url(#refrigerator-icon)\"></rect>\n<defs>\n<pattern id=\"refrigerator-icon\" patternContentUnits=\"objectBoundingBox\" width=\"1\" height=\"1\">\n<use xlink:href=\"#image0_4108_2754\" transform=\"scale(0.01)\"></use>\n</pattern>\n<image id=\"image0_4108_2754\" width=\"100\" height=\"100\" xlink:href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsklEQVR4nO2cQW4TQQAEmwOIL8T2h3gAvCFR8jA4hy8QLEh4AlwQQuIAiXMfNGgjOQPCYEiqZ7ZLWimHPdR27Vr2YSP9O48knUhaS7qWVGZ2XEt6Lel42gJlIemdwSjF5LiQdEDFqHdDYuinKOeSHhJBTgzuyGJ6HBFB1o3EqaSl5sdyuvbtLc4IkU0jMccYN6yaLa4E0D6mc6fQe+ACZuB74AJm4HvgAmbge+ACZuB77CNQfzA90JiU3oI8k/R1+kr4VONRegvyeevcTxqP0lsQXPiOwa8vQW6TIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmJIgZCWJGgpjRXZAPW+e+13iU3oI8kfRxOurfo1F6CzI6hd4DFzAD3wMXMAPfAxcwA98DFzAD3wMXMAPfoxXIIS7I4wTQrhvw3t8vzBMhnyCVBJF3kLlT6D1wATPwPXABM/A9cAEz8D1wATPwPfYRyBtURkHyBpVZkLxBZRYE/4y9Y/DrS5DbJIgZCWJGgpiRIGYkiBkJYkaCmJEgZiSIGQliRoKYkSBmdBckb1CZBckbVKM/ombge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HvgAmbge+ACZuB74AJm4HtcNQIrzZdVs0Xd5t5ZNxKnkpaaZ4yXzRZnhMjxLx7THPqxwSERpP4jzItEUHsTvpn+6xHCgaTzRNFNjLfTJij1bjiS9ErSZoZxNtO1H5JPxv/4+od/TRzEe9gLK5167+Ryj8f+Gy2tfr138mKPC3tOS6tf753UH4df/uKi6rkLWlr9ev8Ri+nu+d3HwOV0jtNFLWjv7yI+17ZN6ipNAAAAAElFTkSuQmCC\"></image>\n</defs>\n</svg>\nDo you also have a 10+ year old working fridge &amp; freezer?\n</p>\n<a href=\"#\" class=\"btn-question btn-question-secondary\" style=\"text-decoration:none\">\nGET $50 WITH APPLIANCE RETIREMENT\n</a>\n</div>\n</div>\n",
+                      "category": "result",
+                      "__gohashid": 44052,
+                      "title": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "type": "result",
+                      "x": 9059.233459472689,
+                      "y": 682.973783346142,
+                      "children": [],
+                      "label": "HOME ENERGY ASSESSMENT, EPI, INSTANT SAVINGS, FRIDGE RETIREMENT",
+                      "loc": {
+                        "x": 9007.466796874993,
+                        "y": 682.9737833461431,
+                        "_isFrozen": false
+                      }
+                    }
+                  ],
+                  "label": "ELECTRIC",
+                  "loc": {
+                    "x": 9246.266784667961,
+                    "y": 546.3790266769138,
+                    "_isFrozen": false
+                  }
+                }
+              ],
+              "label": "HOW DO YOU CURRENTLY HEAT YOU HOME?",
+              "loc": {
+                "x": 7389.154289245613,
+                "y": 409.78427000768534,
+                "_isFrozen": false
+              }
+            }
+          ],
+          "label": "HIGH INCOME OPTIONS",
+          "loc": {
+            "x": 7474.904289245613,
+            "y": 273.1895133384569,
+            "_isFrozen": false
+          }
+        }
+      ],
+      "label": "PLEASE SELECT YOUR INCOME",
+      "loc": {
+        "x": 4316.916732788082,
+        "y": 136.59475666922845,
+        "_isFrozen": false
+      }
+    }
+  ],
+  "label": "HOW MANY PEOPLE LIVE IN YOUR HOUSE?",
+  "category": "quest",
+  "loc": {
+    "x": 4271.133392333984,
+    "y": 0,
+    "_isFrozen": false
+  },
+  "text": "HOW MANY PEOPLE LIVE IN YOUR HOUSE?",
+  "__gohashid": 449
+}

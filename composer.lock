@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5065b47f535d1b44367df587ebd05d8b",
+    "packages": [
+        {
+            "name": "nicmart/tree",
+            "version": "0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nicmart/Tree.git",
+                "reference": "1e00b25e65fc956cc2d089b640b951763bdcbbaf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nicmart/Tree/zipball/1e00b25e65fc956cc2d089b640b951763bdcbbaf",
+                "reference": "1e00b25e65fc956cc2d089b640b951763bdcbbaf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.29.0",
+                "ergebnis/license": "^2.1.0",
+                "ergebnis/php-cs-fixer-config": "^5.3.1",
+                "fakerphp/faker": "^1.21.0",
+                "infection/infection": "~0.26.19",
+                "phpunit/phpunit": "^9.6.3",
+                "psalm/plugin-phpunit": "~0.18.4",
+                "vimeo/psalm": "^5.7.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tree\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolò Martini",
+                    "email": "nicmartnic@gmail.com"
+                },
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "A basic but flexible php tree data structure and a fluent tree builder implementation.",
+            "support": {
+                "issues": "https://github.com/nicmart/Tree/issues",
+                "source": "https://github.com/nicmart/Tree/tree/0.7.1"
+            },
+            "time": "2023-02-24T15:10:48+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
