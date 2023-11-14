@@ -32,7 +32,7 @@
               "children": [
                 {
                   "key": "quest-4",
-                  "title": "DO YOU CURRENTLY HAVE A HEAT PUMP AND ARE CONSIDERING INSTALLING ANOTHER?",
+                  "title": "HAVE YOU INSTALLED A HEAT PUMP IN THE PAST 180 DAYS?",
                   "type": "quest",
                   "content": "",
                   "x": -1.0658141036401503e-13,
@@ -113,14 +113,14 @@
                       }
                     }
                   ],
-                  "label": "DO YOU CURRENTLY HAVE A HEAT PUMP AND ARE CONSIDERING INSTALLING ANOTHER?",
+                  "label": "HAVE YOU INSTALLED A HEAT PUMP IN THE PAST 180 DAYS?",
                   "category": "quest",
                   "loc": {
                     "x": 250.92030843580827,
                     "y": 546.3519449966163,
                     "_isFrozen": false
                   },
-                  "text": "DO YOU CURRENTLY HAVE A HEAT PUMP AND ARE CONSIDERING INSTALLING ANOTHER?",
+                  "text": "HAVE YOU INSTALLED A HEAT PUMP IN THE PAST 180 DAYS?",
                   "__gohashid": 608
                 }
               ],
