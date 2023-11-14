@@ -4,7 +4,7 @@
 Plugin Name: Efficiency
 Plugin URI: https://grind.studio
 Description: Plugin helps make decision three json
-Version: 1.1.2
+Version: 1.1.3
 Author: Grind
 Author URI: https://grind.studio
 Text Domain: Efficiency
@@ -57,7 +57,6 @@ new buildTree;
 function check_for_plugin_update() {
 	
 	if ( class_exists( 'Plugin_Upgrader' ) ) {
-		
 		
 		$plugin_data     = get_plugin_data( __FILE__ );
 		$current_version = $plugin_data['Version'];
